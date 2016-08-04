@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="1">cross.PNG</file>
+        <file alias="2">ought.PNG</file>
+    </qresource>
+</RCC>
