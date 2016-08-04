@@ -28,10 +28,3 @@ RESOURCES += \
     images.qrc
 
 TRANSLATIONS += tictactoe_ru.ts
-
-#INCLUDEPATH += ../../qxmpp-0.2.0/src
-
-#LIBS += -L../../qxmpp-0.2.0/lib -lqxmpp
-
-#OTHER_FILES += \
-#    Board.qml

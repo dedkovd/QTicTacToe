@@ -36,8 +36,6 @@ private:
     QTcpSocket *tcpSocket;
     QTcpSocket *clientSocket;
 
-    //QXmppClient *c;
-
     void newGame();
     int boardSize;
     int countToWin;
@@ -47,7 +45,6 @@ private:
     bool isLocalGame;
 
 private slots:
-    //void on_actionConnectToJabber_triggered();
     void on_actionAbout_triggered();
     void on_actionDisconnect_triggered();
     void on_actionConnect_to_Server_triggered();
@@ -59,8 +56,6 @@ private slots:
 
     void turn(int x, int y, int player);
     void readTurn();
-
-    //void message(QXmppMessage message);
 };
 
 #endif // MAINWINDOW_H
