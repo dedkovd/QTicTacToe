@@ -10,21 +10,21 @@ TARGET = QTicTacToe
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    qtictactoegame.cpp \
-    qtictactoeboard.cpp \
-    gamesettingsdialog.cpp
+SOURCES += src/main.cpp\
+        src/mainwindow.cpp \
+    src/qtictactoegame.cpp \
+    src/qtictactoeboard.cpp \
+    src/gamesettingsdialog.cpp
 
-HEADERS  += mainwindow.h \
-    qtictactoegame.h \
-    qtictactoeboard.h \
-    gamesettingsdialog.h
+HEADERS  += src/mainwindow.h \
+    src/qtictactoegame.h \
+    src/qtictactoeboard.h \
+    src/gamesettingsdialog.h
 
-FORMS    += mainwindow.ui \
-    gamesettingsdialog.ui
+FORMS    += ui/mainwindow.ui \
+    ui/gamesettingsdialog.ui
 
 RESOURCES += \
-    images.qrc
+    resources/images.qrc
 
-TRANSLATIONS += tictactoe_ru.ts
+TRANSLATIONS += i18n/tictactoe_ru.ts
